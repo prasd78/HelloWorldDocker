@@ -1,6 +1,6 @@
 FROM java:7
 MAINTAINER pdhandap@starbucks.com
-COPY JavaHelloWorld.java .
-RUN javac JavaHelloWorld.java
-CMD ["java", "JavaHelloWorld"]
+COPY HelloWorldDocker.java .
+RUN javac HelloWorldDocker.java
+CMD ["java", "HelloWorldDocker"]
 
